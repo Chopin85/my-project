@@ -76,7 +76,7 @@ export default function ReduxSaga() {
           title="Refresh"
           onPress={() => dispatch(getCocktail())}
         ></Button>
-        <Text>{cocktail.strInstructions}</Text>
+        <Text>{cocktail.strInstructionsIT}</Text>
       </View>
     </View>
   );
