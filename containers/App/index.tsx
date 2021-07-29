@@ -30,7 +30,7 @@ const App: React.FC = () => {
           </Link>
         </View>
         <Switch>
-          <Route exact path="/" component={ReduxSaga} />
+          <Route exact path="/" component={HomePage} />
           <Route path="/redux" component={Redux} />
           <Route path="/reduxsaga" component={ReduxSaga} />
         </Switch>
